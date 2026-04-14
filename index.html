@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chống Liệt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Đề Thi Thử 2026</h1>
+        
+        <div class="countdown-wrapper" id="countdown-container">
+            <p class="countdown-title">⏳ đếm ngược ngày thi THPTQG</p>
+            <div class="countdown" id="countdown">
+                <div class="time-box"><span id="days">00</span><small>Ngày</small></div>
+                <div class="time-box"><span id="hours">00</span><small>Giờ</small></div>
+                <div class="time-box"><span id="minutes">00</span><small>Phút</small></div>
+                <div class="time-box"><span id="seconds">00</span><small>Giây</small></div>
+            </div>
+        </div>
+
+        <p class="subtitle" id="page-desc">wao wao wao</p>
+
+        <button class="back-btn" id="back-btn" onclick="goBack()">← Quay lại chọn môn</button>
+
+        <div class="grid-container" id="subject-section">
+            <button class="btn" onclick="showProvinces('Toán')">Toán</button>
+            <button class="btn" onclick="showProvinces('Sử')">Sử</button>
+            <button class="btn" onclick="showProvinces('Địa')">Địa</button>
+            <button class="btn" onclick="showProvinces('Giáo dục KT&PL')">Giáo dục KT&PL</button>
+        </div>
+
+        <div class="grid-container" id="province-section">
+            </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
