@@ -25,6 +25,7 @@ const dbDeThi = {
         { name: "Cụm trường THPT Bắc Ninh", link: "https://azota.vn/de-thi/b5zo3j" }
     ],
     "Địa": [
+        { name: "Sở GD&ĐT Lào Cai", link: "https://azota.vn/de-thi/2dlzsv" },
         { name: "Sở Giáo Dục Ninh Bình - Lần 1", link: "https://azota.vn/de-thi/msd93j" },
         { name: "Sở GD Thái Nguyên Lần 1", link: "https://azota.vn/de-thi/wtgl0o" }
     ]
