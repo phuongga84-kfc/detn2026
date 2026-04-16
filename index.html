@@ -1,45 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chống Liệt</title>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div class="container">
-        <h1>Đề Thi Thử 2026</h1>
-        
-        <div class="countdown-wrapper" id="countdown-container">
-            <p class="countdown-title">⏳ đếm ngược ngày thi THPTQG</p>
-            <div class="countdown" id="countdown">
-                <div class="time-box"><span id="days">00</span><small>Ngày</small></div>
-                <div class="time-box"><span id="hours">00</span><small>Giờ</small></div>
-                <div class="time-box"><span id="minutes">00</span><small>Phút</small></div>
-                <div class="time-box"><span id="seconds">00</span><small>Giây</small></div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đề thi thử các sở/trường THPTQG 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="doc-modal" class="modal">
+      <div class="modal-content glass-effect">
+        <div class="modal-header">
+          <h2 id="doc-title" class="gradient-text">Tên đề thi</h2>
+          <span class="close-btn" onclick="closeDoc()">&times;</span>
         </div>
-
-        <p class="subtitle" id="page-desc">wao wao wao</p>
-
-        <button class="back-btn" id="back-btn" onclick="goBack()">← Quay lại chọn môn</button>
-
-        <div class="grid-container" id="subject-section">
-            <button class="btn" onclick="showProvinces('Toán')">Toán</button>
-            <button class="btn" onclick="showProvinces('Sử')">Sử</button>
-            <button class="btn" onclick="showProvinces('Địa')">Địa</button>
-            <button class="btn" onclick="showProvinces('Giáo dục KT&PL')">Giáo dục KT&PL</button>
+        <div class="modal-actions">
+          <a id="download-btn" href="#" download class="btn-download">⬇️ Tải đề về máy</a>
         </div>
+        <div class="iframe-container" id="viewer-container">
+          <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
 
-        <div class="grid-container" id="province-section">
-            </div>
+    <div class="main-wrapper">
+      <h1 class="title-main stagger-1">Đề Thi Thử <span class="gradient-text">2026</span></h1>
+
+      <div class="countdown-wrapper glass-effect stagger-2" id="countdown-container">
+        <p class="countdown-title">
+          <span class="pulse-dot"></span> Đếm ngược ngày thi THPTQG
+        </p>
+        <div class="countdown" id="countdown">
+          <div class="time-box">
+            <span id="days">00</span><small>Ngày</small>
+          </div>
+          <div class="time-box">
+            <span id="hours">00</span><small>Giờ</small>
+          </div>
+          <div class="time-box">
+            <span id="minutes">00</span><small>Phút</small>
+          </div>
+          <div class="time-box">
+            <span id="seconds">00</span><small>Giây</small>
+          </div>
+        </div>
+      </div>
+
+      <p class="subtitle stagger-3" id="page-desc">🚀🚀🚀</p>
+
+      <button class="back-btn glass-effect" id="back-btn" onclick="goBack()">
+        ← Quay lại chọn môn
+      </button>
+
+      <div class="grid-container stagger-4" id="subject-section">
+        <button class="btn glass-effect" onclick="showProvinces('Toán')">Toán</button>
+        <button class="btn glass-effect" onclick="showProvinces('Sử')">Sử</button>
+        <button class="btn glass-effect" onclick="showProvinces('Địa')">Địa</button>
+        <button class="btn glass-effect" onclick="showProvinces('Giáo dục KT&PL')">Giáo dục KT&PL</button>
+        <button class="btn glass-effect" onclick="showProvinces('Ngữ Văn')">Ngữ Văn</button>
+      </div>
+
+      <div class="grid-container" id="province-section"></div>
     </div>
 
     <script src="data.js"></script>
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
