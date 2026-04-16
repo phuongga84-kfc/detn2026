@@ -1,6 +1,7 @@
 // Bạn có thể dễ dàng thêm, sửa, xóa các link đề thi ở đây
 const dbDeThi = {
     "Toán": [
+        { name: "Sở Phú Thọ lần 2", link: "https://azota.vn/de-thi/6mil1r" },
         { name: "THPT Phụ Dực – Hưng Yên", link: "https://azota.vn/de-thi/lfn5hy" },
         { name: "THPT Mộ Đức 2 – Quảng Ngãi", link: "https://azota.vn/de-thi/ucwlph" },
         { name: "Sở Quảng Ninh", link: "https://azota.vn/de-thi/fy3ao5" },
