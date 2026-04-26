@@ -24,6 +24,7 @@ const dbDeThi = {
         { name: "Sở Ninh Bình lần 1", link: "https://azota.vn/de-thi/iqknyu" }
     ],
     "Sử": [
+        { name: "Sở Cà Mau", link: "https://azota.vn/de-thi/mjqkmh" },
         { name: "THPT Thanh Thuỷ", link: "https://azota.vn/de-thi/hzqqyv" },
         { name: "Cụm THPT Hiệp Hoà - Tiên Du ", link: "https://azota.vn/vi/de-thi/iivzj8" },
         { name: "Sở GD&ĐT Ninh Bình - Lần 1", link: "https://azota.vn/vi/de-thi/ivtuje" },
@@ -33,6 +34,8 @@ const dbDeThi = {
         { name: "Cụm trường THPT Bắc Ninh", link: "https://azota.vn/de-thi/b5zo3j" }
     ],
     "Địa": [
+        { name: "Sở Đà Nẵng", link: "https://azota.vn/de-thi/pzk6yw" },
+        { name: "Sở Nghệ An lần 2", link: "https://azota.vn/de-thi/eq2zzq" },
         { name: "Sở Huế", link: "https://azota.vn/de-thi/hem8q0" },
         { name: "Sở Lạng Sơn", link: "https://azota.vn/de-thi/jquaah" },
         { name: "Sở Cao Bằng", link: "https://azota.vn/de-thi/cpdbil" },
