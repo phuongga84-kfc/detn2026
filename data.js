@@ -1,6 +1,7 @@
 // Bạn có thể dễ dàng thêm, sửa, xóa các link đề thi ở đây
 const dbDeThi = {
     "Toán": [
+        { name: "Sở GD&ĐT Tuyên Quang lần 2", link: "https://azota.vn/de-thi/y2vlli" },
         { name: "Sở GD&ĐT Thanh Hóa lần 2", link: "https://azota.vn/de-thi/biacwx" },
         { name: "Sở GD&ĐT Thái Nguyên", link: "https://azota.vn/de-thi/5zme4n" },
         { name: "Sở GD&ĐT Cà Mau", link: "https://azota.vn/de-thi/7llwlp" },
