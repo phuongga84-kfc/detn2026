@@ -46,6 +46,7 @@
         </div>
       </div>
 
+      <p class="subtitle subtitle-count stagger-3" id="total-count"></p>
       <p class="subtitle stagger-3" id="page-desc">🚀🚀🚀</p>
 
       <button class="back-btn glass-effect" id="back-btn" onclick="goBack()">
@@ -53,11 +54,11 @@
       </button>
 
       <div class="grid-container stagger-4" id="subject-section">
-        <button class="btn glass-effect" onclick="showProvinces('Toán')">Toán</button>
-        <button class="btn glass-effect" onclick="showProvinces('Sử')">Sử</button>
-        <button class="btn glass-effect" onclick="showProvinces('Địa')">Địa</button>
-        <button class="btn glass-effect" onclick="showProvinces('Giáo dục KT&PL')">Giáo dục KT&PL</button>
-        <button class="btn glass-effect" onclick="showProvinces('Ngữ Văn')">Ngữ Văn</button>
+        <button class="btn glass-effect" data-subject="Toán" onclick="showProvinces('Toán')">Toán</button>
+        <button class="btn glass-effect" data-subject="Sử" onclick="showProvinces('Sử')">Sử</button>
+        <button class="btn glass-effect" data-subject="Địa" onclick="showProvinces('Địa')">Địa</button>
+        <button class="btn glass-effect" data-subject="Giáo dục KT&PL" onclick="showProvinces('Giáo dục KT&PL')">Giáo dục KT&PL</button>
+        <button class="btn glass-effect" data-subject="Ngữ Văn" onclick="showProvinces('Ngữ Văn')">Ngữ Văn</button>
       </div>
 
       <div class="grid-container" id="province-section"></div>

@@ -1,6 +1,8 @@
 // Bạn có thể dễ dàng thêm, sửa, xóa các link đề thi ở đây
 const dbDeThi = {
     "Toán": [
+        { name: "Sở GD&ĐT Cần Thơ", link: "https://azota.vn/de-thi/xezwxf" },
+        { name: "Sở GD&ĐT An Giang", link: "https://azota.vn/de-thi/t18bns" },
         { name: "Sở GD&ĐT Đồng Tháp", link: "https://azota.vn/de-thi/cidtth" },
         { name: "Sở GD&ĐT Đồng Nai lần 2", link: "https://azota.vn/de-thi/2cfsrd" },
         { name: "Sở GD&ĐT Hưng Yên lần 2", link: "https://azota.vn/de-thi/rngbuq" },
@@ -29,6 +31,13 @@ const dbDeThi = {
         { name: "Sở Ninh Bình lần 1", link: "https://azota.vn/de-thi/iqknyu" }
     ],
     "Sử": [
+        { name: "Sở Đồng Nai lần 2", link: "https://azota.vn/de-thi/yb3jrd" },
+        { name: "Sở Điện Biên", link: "https://azota.vn/de-thi/o3dflk" },
+        { name: "Sở Ninh Bình Lần 3", link: "https://azota.vn/de-thi/rtah0m" },
+        { name: "Sở Tuyên Quang Lần 2", link: "https://azota.vn/de-thi/tuxaj9" },
+        { name: "Sở Thanh Hóa Lần 2", link: "https://azota.vn/de-thi/pq5y3i" },
+        { name: "Sở Thái Nguyên Lần 2", link: "https://azota.vn/de-thi/64ey8k" },
+        { name: "Sở Đà Nẵng", link: "https://azota.vn/de-thi/rebfz5" },
         { name: "Sở Cà Mau", link: "https://azota.vn/de-thi/mjqkmh" },
         { name: "THPT Thanh Thuỷ", link: "https://azota.vn/de-thi/hzqqyv" },
         { name: "Cụm THPT Hiệp Hoà - Tiên Du ", link: "https://azota.vn/vi/de-thi/iivzj8" },

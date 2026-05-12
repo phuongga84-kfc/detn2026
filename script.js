@@ -3,7 +3,40 @@ const subjectSection = document.getElementById("subject-section");
 const provinceSection = document.getElementById("province-section");
 const backBtn = document.getElementById("back-btn");
 const pageDesc = document.getElementById("page-desc");
+const totalCount = document.getElementById("total-count");
+const subjectCounts = document.getElementById("subject-counts");
 const countdownContainer = document.getElementById("countdown-container");
+const subjectButtons = document.querySelectorAll("#subject-section button");
+
+function renderTotalCount() {
+  const count = Object.values(dbDeThi).reduce((total, subjectList) => {
+    return total + (Array.isArray(subjectList) ? subjectList.length : 0);
+  }, 0);
+  if (totalCount) {
+    totalCount.innerHTML = `Hiện có <b>${count}</b> đề thi có sẵn để luyện tập.`;
+  }
+}
+
+function renderSubjectCounts() {
+  const subjects = ["Toán", "Sử", "Địa", "Ngữ Văn", "Giáo dục KT&PL"];
+  const counts = subjects.map((subject) => {
+    const list = dbDeThi[subject];
+    return `${subject}: <b>${Array.isArray(list) ? list.length : 0}</b>`;
+  });
+  if (subjectCounts) {
+    subjectCounts.innerHTML = counts.join(" • ");
+  }
+}
+
+function renderSubjectButtons() {
+  subjectButtons.forEach((btn) => {
+    const subject = btn.dataset.subject;
+    if (!subject) return;
+    const list = dbDeThi[subject];
+    const count = Array.isArray(list) ? list.length : 0;
+    btn.innerText = `${subject} (${count} đề)`;
+  });
+}
 
 function showProvinces(subject) {
   // Ẩn các phần không cần thiết
@@ -107,5 +140,8 @@ function updateCountdown() {
   document.getElementById("seconds").innerText = seconds < 10 ? "0" + seconds : seconds;
 }
 
+renderTotalCount();
+renderSubjectCounts();
+renderSubjectButtons();
 updateCountdown();
 setInterval(updateCountdown, 1000);
