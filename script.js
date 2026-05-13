@@ -51,7 +51,7 @@ function showProvinces(subject) {
   const provinces = typeof dbDeThi !== "undefined" ? dbDeThi[subject] : [];
 
   if (!provinces || provinces.length === 0) {
-    provinceSection.innerHTML = "<p style='color: var(--text-muted); width: 100%; text-align: center; grid-column: 1/-1;'>Đang cập nhật đề thi...</p>";
+    provinceSection.innerHTML = "<p style='color: var(--text-muted); width: 100%; text-align: center; grid-column: 1/-1;'>Đừng chờ tôi mếu thi gdpl nên k có đâu</p>";
   } else {
     provinces.forEach((item, index) => {
       const aTag = document.createElement("a");
