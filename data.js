@@ -56,6 +56,8 @@ const dbDeThi = {
         { name: "Cụm trường THPT Bắc Ninh", link: "https://azota.vn/de-thi/b5zo3j" }
     ],
     "Địa": [
+        { name: "THPT Cụm 9 Hà Nội Lần 3", link: "https://azota.vn/de-thi/itk8a5" },
+        { name: "Sở Sơn La lần 3 ", link: "https://azota.vn/de-thi/zsp6h3" },
         { name: "Sở Vĩnh Long ", link: "https://azota.vn/de-thi/c3uw25" },
         { name: "Sở Hà Tĩnh ", link: "https://azota.vn/de-thi/cdy2gkon" },
         { name: "Sở Thái Nguyên lần 2 ", link: "https://azota.vn/de-thi/ezc5on" },
