@@ -1,6 +1,7 @@
 // Bạn có thể dễ dàng thêm, sửa, xóa các link đề thi ở đây
 const dbDeThi = {
     "Toán": [
+        { name: "Sở GD&ĐT Ninh Bình lần 4", link: "https://azota.vn/de-thi/11kynd" },
         { name: "THPT Lê Hồng Phong Thái Nguyên Lần 3", link: "https://azota.vn/de-thi/90zj2y" },
         { name: "THPT Văn Lang - Hà Nội", link: "https://azota.vn/de-thi/dppwyr" },
         { name: "Sở GD&ĐT Sơn La lần 3", link: "https://azota.vn/de-thi/dmos5t" },
@@ -58,6 +59,7 @@ const dbDeThi = {
         { name: "Cụm trường THPT Bắc Ninh", link: "https://azota.vn/de-thi/b5zo3j" }
     ],
     "Địa": [
+        { name: "Sở Hải Phòng lần 2 ", link: "https://azota.vn/de-thi/jcsa76" },
         { name: "THPT Cụm 9 Hà Nội Lần 3", link: "https://azota.vn/de-thi/itk8a5" },
         { name: "Sở Sơn La lần 3 ", link: "https://azota.vn/de-thi/zsp6h3" },
         { name: "Sở Vĩnh Long ", link: "https://azota.vn/de-thi/c3uw25" },
