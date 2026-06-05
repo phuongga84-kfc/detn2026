@@ -1,6 +1,7 @@
 // Bạn có thể dễ dàng thêm, sửa, xóa các link đề thi ở đây
 const dbDeThi = {
     "Toán": [
+        { name: "THPT Nguyễn Trung Trực - Thành Phố Hồ Chí Minh", link: "https://azota.vn/de-thi/99ichd" },
         { name: "THPT Long Thạnh – An Giang", link: "https://azota.vn/de-thi/h1vj8p" },
         { name: "THPT Mỹ Đình - Hà Nội", link: "https://azota.vn/de-thi/cpkyt9" },
         { name: "Liên trường Nghệ An lần 5", link: "https://azota.vn/de-thi/uorr05" },
